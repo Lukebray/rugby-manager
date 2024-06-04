@@ -9,15 +9,11 @@ class Team:
     
     def add_player(self, player):
         self.players.append(player)
+        player.team = self
 
     def remove_player(self, player):
         self.players.remove(player)
+        player.team = None
     
-    def get_attack_strength(self):
-        return sum(player.attack for player in self.players)
-    
-    def get_defence_strength(self):
-        return sum(player.defence for player in self.players)
-    
-    def get_scroe(self):
+    def get_score(self):
         return self.score
