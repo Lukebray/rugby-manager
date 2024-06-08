@@ -1,4 +1,7 @@
 class Ball:
-    def __init__ (self):
-        self.possession = None #player in possession of the ball
-        self.position = 50 #position of the ball on the field (middle is 50 for now)
+    def __init__ (self, x, y):
+        self.player_in_possession = None #player in possession of the ball
+        self.position = (x, y) 
+
+    def update_position(self, x, y):
+        self.position = (x, y)
