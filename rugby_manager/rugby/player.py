@@ -14,7 +14,8 @@ class Player:
         
     def perform_action(self):
         actions = ["pass", "run"]
-        return random.choice(actions) #for now just return a random action
+        #return random.choice(actions) #for now just return a random action
+        return "run"
     
 
     def get_team(self):
