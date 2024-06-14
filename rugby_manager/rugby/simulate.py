@@ -9,10 +9,10 @@ team1 = team.Team("Team 1", [])
 team2 = team.Team("Team 2", [])
 
 # Create players and add to teams
-player1 = player.Player("T1-P1", 20, 20, 20)
-player2 = player.Player("T1-P2", 10, 10, 10)
-player3 = player.Player("T2-P1", 10, 10, 10)
-player4 = player.Player("T2-P2", 1, 1, 1)
+player1 = player.Player("T1-P1", 10, 10, 10)
+player2 = player.Player("T1-P2", 10, 10, 19)
+player3 = player.Player("T2-P1", 10, 10, 8)
+player4 = player.Player("T2-P2", 10, 10, 14)
 
 team1.add_player(player1)
 team1.add_player(player2)
